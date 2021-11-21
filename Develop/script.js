@@ -24,11 +24,11 @@ if(hour < moment().hour()) {
     console.log("past")
 }
 else if(hour > moment().hour()) {
-    timeBlockDetail.css("background-color", "gray")
+    timeBlockDetail.css("future")
     console.log("future")
 }
 else {
-    timeBlockDetail.css("background-color", "blue")
+    timeBlockDetail.css("present")
     console.log("current")
 }
 
