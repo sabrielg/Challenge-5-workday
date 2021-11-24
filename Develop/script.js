@@ -4,10 +4,10 @@ function generateTimeblock (hour, value) {
     timeBlockRow.addClass("row justify-content-center border-bottom border-light");
 
 var timeBlockHour = $("<div>")
-timeBlockHour.addClass("col-2 ml-2 text-center p-2");
+timeBlockHour.addClass("col-1 ml-2 text-center p-2");
 timeBlockHour.addClass("hour time-block")
 if (hour < 12) {
-    timeBlockHour.text(hour%12+"AM")
+    timeBlockHour.text(hour +"AM")
 }
 else if(hour > 12) {
     timeBlockHour.text(hour%12+"PM")
@@ -43,11 +43,10 @@ if (localStorage.getItem(hour)) {
 }
 
 var timeBlockSave = $("<div>")
-timeBlockSave.addClass("col-2 mr-2 p-2 saveBtn");
+timeBlockSave.addClass("col-1 mr-2 p-2 saveBtn");
 var saveIcon =$("<i>")
-saveIcon.addClass("fas fa-save fa-3x")
+saveIcon.addClass("fas fa-save fa-3x justify-content-center")
 timeBlockSave.append(saveIcon)
-// timeBlockSave.css("justify-content-center")
 timeBlockSave.click(function (){
     // if(click.keyCode===13);
     console.log(timeBlockInput.val())
@@ -60,7 +59,7 @@ return timeBlockRow
 }
 
 for (let index = 0; index < 9; index++) {
-    $("#timeDisplay").append(generateTimeblock(index+10,))
+    $("#timeDisplay").append(generateTimeblock(index+9,))
     // if this specific time block has value from the previous session (local storage) and be passed into here
 }
 
