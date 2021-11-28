@@ -6,9 +6,8 @@ This project was created so that a user can plan their workday beginning at 10am
 This project utilizes moment, local Storage, JavaScript, Jquery, and Bootstrap. I learned how to style using bootstrap and jquery along with using moment to define time.
 ## Usage
 A user enters a task for their workday at a selected time between 9am - 5pm. Past due tasks turn gray, future tasks are green and the present hour is highlighted red. After entering a task and selecting the "save" button the task will remain on that line every time you refresh the browser.
-    ```md
-    ![alt text](develop/Work_Day_Scheduler2.jpg)
-    ```
+![alt text](Develop/assets/Work_Day_Scheduler2.jpg)
+
 ## Credits
 T.A. Eric Sayer and tutor Armando Osario
 ## License
