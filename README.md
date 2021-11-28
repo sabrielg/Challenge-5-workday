@@ -4,13 +4,10 @@
 This project was created so that a user can plan their workday beginning at 10am and ending at 6pm. When a user enters a task it is saved in local storage so that when they reload the page the task will also be loaded. The hours are color coded to indicate the past, present, and future. 
 
 This project utilizes moment, local Storage, JavaScript, Jquery, and Bootstrap. I learned how to style using bootstrap and jquery along with using moment to define time.
-## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+A user enters a task for their workday at a selected time between 9am - 5pm. Past due tasks turn gray, future tasks are green and the present hour is highlighted red. After entering a task and selecting the "save" button the task will remain on that line every time you refresh the browser.
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](develop/Work_Day_Scheduler2.jpg)
     ```
 ## Credits
 T.A. Eric Sayer and tutor Armando Osario

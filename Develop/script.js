@@ -45,7 +45,7 @@ if (localStorage.getItem(hour)) {
 var timeBlockSave = $("<div>")
 timeBlockSave.addClass("col-1 mr-2 p-2 saveBtn");
 var saveIcon =$("<i>")
-saveIcon.addClass("fas fa-save fa-3x justify-content-center")
+saveIcon.addClass("fas fa-save fa-3x")
 timeBlockSave.append(saveIcon)
 timeBlockSave.click(function (){
     // if(click.keyCode===13);
